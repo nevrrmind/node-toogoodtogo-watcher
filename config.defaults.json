@@ -5,6 +5,11 @@
       "email": "Email of your TooGoodToGo account."
     },
     "session": {},
+	"backoff403": {
+		"threshold": 3,
+		"windowMs": 300000,
+		"cooldownMs": 600000
+		},
     "headers": {},
     "pollingIntervalInMs": 30000,
 	"pollingIntervalMinInMs": 40000,
